@@ -15,16 +15,6 @@ sequence = infile.read().replace("\r\n","").replace("\n","")
 infile.close()
 
 
-########################
-## Set empty variable ##
-########################
-
-A=0
-T=0
-G=0
-C=0
-N=0
-Nchar = ""
 
 ############################################
 ## For loop and check all the nucleotides ##
