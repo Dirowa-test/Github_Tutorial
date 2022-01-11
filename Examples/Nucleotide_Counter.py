@@ -14,7 +14,6 @@ infile = open(location+filename,"r")
 sequence = infile.read().replace("\r\n","").replace("\n","")
 infile.close()
 
-#print(sequence)
 
 ########################
 ## Set empty variable ##
